@@ -23,16 +23,17 @@
   </section>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+  <?php get_theme_file_uri('vendor/bootstrap/css/bootstrap.min.css'); ?> 
+  <?php get_theme_file_uri('vendor/jquery/jquery.min.js'); ?> 
+  <?php get_theme_file_uri('vendor/bootstrap/js/bootstrap.bundle.min.js'); ?> 
+  
   <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <?php get_theme_file_uri('vendor/jquery-easing/jquery.easing.min.js'); ?> 
+  <?php get_theme_file_uri('vendor/scrollreveal/scrollreveal.min.js'); ?> 
+  <?php get_theme_file_uri('vendor/magnific-popup/jquery.magnific-popup.min.js'); ?> 
 
   <!-- Custom scripts for this template -->
-  <script src="js/creative.min.js"></script>
+  <?php get_theme_file_uri('js/creative.min.js'); ?> 
 
 </body>
 <?php wp_footer() ?>
