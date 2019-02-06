@@ -23,17 +23,17 @@
   </section>
 
   <!-- Bootstrap core JavaScript -->
-  <link href="<?php get_theme_file_uri('vendor/bootstrap/css/bootstrap.min.css'); ?> " rel="stylesheet">
-  <link href="<?php get_theme_file_uri('vendor/jquery/jquery.min.js'); ?> " rel="stylesheet">
-  <link href="<?php get_theme_file_uri('vendor/bootstrap/js/bootstrap.bundle.min.js'); ?> " rel="stylesheet">
+  <link href="<?php echo get_theme_file_uri('vendor/bootstrap/css/bootstrap.min.css'); ?> " rel="stylesheet">
+  <link href="<?php echo get_theme_file_uri('vendor/jquery/jquery.min.js'); ?> " rel="stylesheet">
+  <link href="<?php echo get_theme_file_uri('vendor/bootstrap/js/bootstrap.bundle.min.js'); ?> " rel="stylesheet">
   
   <!-- Plugin JavaScript -->
-  <link href="<?php get_theme_file_uri('vendor/jquery-easing/jquery.easing.min.js'); ?> " rel="stylesheet">
-  <link href="<?php get_theme_file_uri('vendor/scrollreveal/scrollreveal.min.js'); ?> " rel="stylesheet">
-  <link href="<?php get_theme_file_uri('vendor/magnific-popup/jquery.magnific-popup.min.js'); ?> " rel="stylesheet">
+  <link href="<?php echo get_theme_file_uri('vendor/jquery-easing/jquery.easing.min.js'); ?> " rel="stylesheet">
+  <link href="<?php echo get_theme_file_uri('vendor/scrollreveal/scrollreveal.min.js'); ?> " rel="stylesheet">
+  <link href="<?php echo get_theme_file_uri('vendor/magnific-popup/jquery.magnific-popup.min.js'); ?> " rel="stylesheet">
 
   <!-- Custom scripts for this template -->
-  <link href="<?php get_theme_file_uri('js/creative.min.js'); ?> " rel="stylesheet">
+  <link href="<?php echo get_theme_file_uri('js/creative.min.js'); ?> " rel="stylesheet">
 
 </body>
 <?php wp_footer() ?>
